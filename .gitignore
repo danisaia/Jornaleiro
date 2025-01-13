@@ -1,0 +1,53 @@
+# Arquivos Python compilados
+*.py[cod]
+__pycache__/
+*.so
+
+# Ambiente virtual (Conda, venv, etc.)
+env/
+.venv/
+.jornaleiro/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.idea/
+
+# Configurações específicas de Docker
+docker-compose.override.yml
+
+# Arquivos de dependências locais
+*.sqlite3
+instance/
+*.db
+
+# Chaves e configurações sensíveis
+.env
+*.key
+secrets/
+
+# Diretórios de build
+build/
+dist/
+*.egg-info/
+
+# Testes e relatórios
+coverage/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Outros
+debug.log
