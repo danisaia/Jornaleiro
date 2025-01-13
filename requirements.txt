@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+stanza
+gensim
+requests
+beautifulsoup4
+apscheduler
+loguru
+pytest
+flake8
+black
+python-dateutil
+sqlalchemy
+pandas
